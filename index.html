@@ -61,6 +61,17 @@
        if (input == "flood") {
          return $result.html("auto car turns around")
        }
+        if (input == "river") {
+         return $result.html("Looks for a new route")
+       }
+
+       if (input == "Firetruck") {
+         return $result.html("Pull out of the way")
+       }
+
+       if (input == "Train") {
+         return $result.html("Wait for it to pass by")
+       }
 
        $result.html("auto car does not know how to handle this situation")
      })
